@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'SupermolotBold';
+    src: url('./TT\ Supermolot\ Bold.otf');
+
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SupermolotLight';
+    src: url('./TT\ Supermolot\ Regular.otf');
+
+    font-weight: normal;
+    font-style: normal;
+}

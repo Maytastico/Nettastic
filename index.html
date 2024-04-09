@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en" class="reveal-full-page">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="icon" type="image/x-icon" href="/img/logo.png">
+
+		<title>Nettastic - Das Neuland entdecken</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/supermolot.css">
+		<link rel="stylesheet" href="dist/fontawesome/css/all.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/github-dark.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section id="intro" data-transition="fade" data-background-gradient="linear-gradient(90deg, rgb(67, 0, 82), rgb(251, 106, 93))">
+					<div class="imageSlide">
+						<div style="color:white">
+								<h2 style="color:white">Nettastic</h2>
+								Das Neuland entdecken
+						</div>
+					</div>
+				</section>
+				<section>
+					<h2 class="r-fit-text">Weitere Kurse: <br><a href="https://courses.jeffsky.de/">courses.jeffsky.de</a></h2>
+				</section>
+				<section data-transition="fade">
+					<section>
+						<div class="r-hstack">
+							<div>
+								<div>
+									<h2>Ello 👋</h2>
+									ich bin Maylis (sie/ihr)
+								</div>
+								<ul>
+									<li>Studentin</li>
+									<li>Nerd</li>
+									<li>Animefan</li>
+									<li>Computer Enthusiastin</li>
+								</ul>
+								<div class="r-hstack" style="font-size: 20px; text-align: center; ">
+									<div style="margin-right: 1em; color: black">
+										<a href="https://www.instagram.com/maytasticofantastico/"><img style="margin: 0;" src="img/instagram.svg">Insta</a>
+										
+									</div>
+									<div>
+										<a href="mailto:may_grune@hotmail.com?subject=PyGame%20Workshop"><img style="margin: 0;"  src="img/envelope-regular.svg"> Mail</a>
+										
+									</div>
+								</div>
+							</div>
+							<div style="max-width: 50%;">
+								<img src="img/me.webp">
+							</div>
+						</div>
+					</section>
+					<section ata-visibility="uncounted" data-autoslide="500" data-auto-animate data-transition="fade">
+						<h2 class="r-fit-text">Wie heißt ihr?</h2>
+					</section>
+					<section ata-visibility="uncounted" data-autoslide="500" data-auto-animate data-transition="fade">
+						<h2 class="r-fit-text">Wie heißt ihr?</h2>
+						<h2 class="r-fit-text">Was macht ihr gerne?</h2>
+					</section>
+					<section ata-visibility="uncounted" data-autoslide="500" data-auto-animate data-transition="fade">
+						<h2 class="r-fit-text">Wie heißt ihr?</h2>
+						<h2 class="r-fit-text">Was macht ihr gerne?</h2>
+						<h2 class="r-fit-text">Was interessiert euch am Programmieren besonders?</h2>
+					</section>
+					<section ata-visibility="uncounted" data-auto-animate data-transition="fade">
+						<h2 class="r-fit-text">Wie heißt ihr?</h2>
+						<p class="r-fit-text">Welche Erwartungen habt ihr? </p>
+						<h2 class="r-fit-text">Was macht ihr gerne?</h2>
+						<h2 class="r-fit-text">Was interessiert euch am Programmieren besonders?</h2>
+					</section>
+				</section>
+				<section id="preperation">
+					<section data-background-gradient="linear-gradient(90deg, rgb(67, 0, 82), rgb(251, 106, 93))"><h2 class="r-fit-text" style="color: white;">Vorbereitung<i class="fa-solid fa-gears fa-flip"></i></h2></section>
+					<section><h2 class="r-fit-text">Öffnet die Präsentation auf: <br><a href="https://ref.jeffsky.de/netatstic">ref.jeffsky.de/nettastic</a></h2></section>
+					<section>
+						Ihr braucht folgende Programme:<br>
+						<ul>
+							<a href="https://code.visualstudio.com/">Visual Studio Code</a>
+							<a href="https://app.diagrams.net/">Draw.io</a>
+						</ul>
+					</section>
+				</section>
+				<section id="lecture1">
+					<section data-background-gradient="linear-gradient(90deg, rgb(67, 0, 82), rgb(251, 106, 93))">
+						<h2 style="color: white;" class="r-fit-text">Hintergrundwissen<i class="fa-regular fa-lightbulb fa-beat-fade"></i> </h2>
+					</section>
+					<section>
+						<h4>Aus was besteht eine Webseite eigentlich?</h4>
+						<ul>
+							<li class="fragment">Aus Code</li>
+							<li class="fragment">Einem Browser, der den Code vesteht</li>
+							<li class="fragment">Aus einem Server, der die Seite überträgt</li>
+							<li class="fragment">Einem Menschen oder Computer, der die Seite aufruft</li>
+						</ul>
+					</section>
+					<section>
+						<h4>Wie wird eine Webseite aufgerufen?</h4>
+						<img src="img/Netzwerke.drawio.png">
+					</section>
+					<section>
+						<h4>Zu was sind Webseiten in der Lage?</h4>
+						<ul>
+							<li class="fragment"> Informationen darstellen</li>
+							<li class="fragment">Anderen Computer informationen bereitstellen</li>
+							<li class="fragment">Programme und Spiele</li>
+							<li class="fragment">Informationen suchbar machen</li>
+							<li class="fragment">Bilder und Videos darstellen </li>
+						</ul>
+					</section>
+					<section data-auto-animate data-transition="fade">
+						<h4>Wie fängt eine Webseite an?</h4>
+						<p>Die Basisstruktur</p>
+						<pre data-id="code"><code class="hljs language-html" data-trim data-line-numbers="" data-noescape>							
+							&lt;!DOCTYPE html&gt;
+							&lt;html&gt;
+
+							&lt;/html&gt;
+						</code></pre>
+					</section>
+					<section data-auto-animate data-transition="fade">
+						<p>In den Kopf kommen Dinge, die ihr nicht umbedingt seht</p>
+						<pre data-id="code"><code class="hljs language-html" data-trim data-line-numbers="" data-noescape>							
+							&lt;!DOCTYPE html&gt;
+							&lt;html&gt;
+								&lt;head&gt;
+
+								&lt;/head&gt;
+							&lt;/html&gt;
+						</code></pre>
+					</section>
+					<section data-auto-animate data-transition="fade">
+						<p>In den Körper kommen sachen, die ihr auf der Seite sehen könnt.</p>
+						<pre data-id="code"><code class="hljs language-html" data-trim data-line-numbers="" data-noescape>							
+							&lt;!DOCTYPE html&gt;
+							&lt;html&gt;
+								&lt;head&gt;
+
+								&lt;/head&gt;
+								&lt;body&gt;
+
+								&lt;/body&gt;
+							&lt;/html&gt;
+						</code></pre>
+					</section>
+				</section>
+				<section id="lecture2">
+					<section data-background-gradient="linear-gradient(90deg, rgb(67, 0, 82), rgb(251, 106, 93))">
+						<h2 style="color: white;" class="r-fit-text">Die erste Webseite<i class="fa-solid fa-gamepad fa-bounce"></i></h2>
+					</section>
+					<section style="font-size: x-large;">
+						<h3>Jedes neues Projekt braucht einen neuen Ordner</h3>
+						<p>Der kann auf eurem Desktop liegen oder ganz geordnet in euren Dokumenten</p>
+					</section>
+					<section data-transition="fade">
+						<h4>Öffne den Ordner in Visual Studio Code und tippe die Basisstruktur ein</h4>
+						<video controls src="img/lecture2/Seite_erstellen.webm"></video>
+					</section>
+				</section>
+				<section id="lecture3">
+					<section data-background-gradient="linear-gradient(90deg, rgb(67, 0, 82), rgb(251, 106, 93))">
+						<h2 style="color: white;" class="r-fit-text">Dein Zug <i class="fa-solid fa-ghost fa-fade"></i></h2>
+					</section>
+					<section data-background-iframe="img/lecture3/Cheat_Sheet_HTML.pdf" data-background-interactive>
+					</section>
+				</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script> 
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes,  RevealMath.KaTeX]
+			});
+		</script>
+	</body>
+</html>
